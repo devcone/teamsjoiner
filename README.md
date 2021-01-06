@@ -6,7 +6,8 @@ The UI is designed to be user friendly too, as a creator with no knowledge of UI
 
 ![](images/ui.png)
 
-Here's how to use the bot: 
+## How to use 
+here's how to use it. again, it is supposed to be straightforward. make sure the chat is open where the meeting will be posted as this bot uses the colour of the "join" button to click it!
 
 ![](images/howtouse.png)
 
