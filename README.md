@@ -22,5 +22,6 @@ The UI is designed to be user friendly too, as a creator with no knowledge of UI
 - Testers
   - Ronnie
   - Megan
-
+- Doccumentation
+  - devcone (me)
 
