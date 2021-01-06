@@ -12,7 +12,7 @@ The UI is designed to be user friendly too, as a creator with no knowledge of UI
 
 ![](images/ui.png)
 
-##Features
+## Features
 - User friendly
   - User friendly UI
   - Easy to follow steps
