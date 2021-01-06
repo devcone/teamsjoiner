@@ -1,10 +1,12 @@
 # teamsjoiner
 A bot to join teams meetings when you're away, so you can be anywhere you like!
 
-Here's a quick look at the UI:
+## The UI:
 
 ![](images/ui.png)
 
 Here's how to use the bot: 
 
 ![](images/howtouse.png)
+
+Credit to Tech Raj on youtube for the idea!
