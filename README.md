@@ -18,6 +18,9 @@ The UI is designed to be user friendly too, as a creator with no knowledge of UI
   - Easy to follow steps
   - Easy to understand
   
-
+## Credits
+- Testers
+  - Ronnie
+  - Megan
 
 
