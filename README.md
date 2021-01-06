@@ -5,3 +5,6 @@ Here's a quick look at the UI:
 
 ![](images/ui.png)
 
+Here's how to use the bot: 
+
+![](images/howtouse.png)
