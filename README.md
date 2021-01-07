@@ -12,6 +12,11 @@ The UI is designed to be user friendly too, as a creator with no knowledge of UI
 
 ![](images/ui2.png)
 
+## Useful Links
+Here you can find a few links to google forms i have set up and a link to my github page, needs some work but will be updated as soon as possible!
+
+![](images/useful%20links.png)
+
 ## Features
 - User friendly
   - User friendly UI
