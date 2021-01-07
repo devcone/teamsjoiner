@@ -1,7 +1,7 @@
 # TeamsJoiner
 A bot to join teams meetings when you're away, so you can be anywhere you like! designed to be user friendly and have a "plug and play" aspect, to run you need no knowledge of coding or any experience. And most importantly, only use this when you absolutely have to. Meetings and classes are necessary for learning and for organisations.
 
-## --IMPORTANT--
+## IMPORTANT
 The application will stop responding when its waiting, this is not an issue and it works that way, untill i find a better way it will stay like this.
 
 Please also note that the application will come up as an unrecognised app, i kindly ask you to press more info-run anyway when it pops up, thanks in advance!
