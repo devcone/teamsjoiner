@@ -29,31 +29,37 @@ namespace PixelBot
 
         private void OnButtonSearchPixelClick(object sender, RoutedEventArgs e)
         {
- 
+           
+
             string min = textbox.Text;
             int minutes = Convert.ToInt32(min);
-            int milli = minutes * 60000 ;
+            int milli = minutes * 30000;
             int finalmilli = milli + 30000;
-            System.Threading.Thread.Sleep(finalmilli);
-
             string endmin = textbox2.Text;
+
             int endminutes = Convert.ToInt32(min);
             int endmilli = endminutes * 60000;
             int endmillifinal = endmilli + 30000;
+            Thread.Sleep(finalmilli);
+            string firsthexcode = "#7C7DB3";
+            SearchPixel(firsthexcode);
+
+            Thread.Sleep(6000);
 
             string inputHexColorCode = "#C2C3DD";
             SearchPixel(inputHexColorCode);
+            Thread.Sleep(6000);
             bool finalised = true;
             if (finalised == true)
             {
-                System.Threading.Thread.Sleep(1000);
+                Thread.Sleep(1000);
                 string inputhexcolorcode2 = "#62C4F1";
                 SearchPixel(inputhexcolorcode2);
                 bool secondstep = true;
                 System.Threading.Thread.Sleep(endmillifinal);
                 if (secondstep == true)
                 {
-                    string inputhexcolorcode3 = "#C4314B";
+                    string inputhexcolorcode3 = "#CF586D";
                     SearchPixel(inputhexcolorcode3);
 
                 } 
@@ -87,7 +93,13 @@ namespace PixelBot
 
             string message = "Join button not found... Whoops....";
             MessageBox.Show(message);
+
+
+
             return false;
+
+
+
         }
 
         private void DoubleClickAtPosition(int posX, int posY)

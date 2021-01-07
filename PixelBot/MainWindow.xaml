@@ -5,21 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PixelBot"
         mc:Ignorable="d"
-        Title="Teamsjoiner by Toby" Height="200" Width="303.093" ResizeMode="NoResize" Background="#FF2C2C2C">
-    <Grid Background="#FF1379A8">
+        Title="Teamsjoiner by Toby" Height="200" Width="303.093" ResizeMode="NoResize" Background="#FF2C2C2C" Icon="teamsjoinerlogo.ico">
+    <Grid Background="#FF677478">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="160*"/>
-            <ColumnDefinition Width="57*"/>
-            <ColumnDefinition Width="80*"/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button Name="ButtonSearchPixel" Click="OnButtonSearchPixelClick" Content="Start automating!" HorizontalAlignment="Center" Margin="48,131,49,10" VerticalAlignment="Center" Width="200" Height="30" Grid.ColumnSpan="3"/>
-        <TextBox x:Name="textbox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="34" Margin="35,30,0,0" TextChanged="TextBox_TextChanged" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <Label Content="Time untill meeting starts:" HorizontalAlignment="Left" Margin="13,27,0,0" VerticalAlignment="Top" Foreground="White"/>
-        <Label Content="ENTER TIME (MINS)" Margin="77,4,74,0" VerticalAlignment="Top" Foreground="White" Grid.ColumnSpan="3"/>
-        <Label Content="How long the lesson lasts:" HorizontalAlignment="Left" Margin="13,68,0,0" VerticalAlignment="Top" Foreground="White"/>
-        <TextBox x:Name="textbox2" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="34" Margin="35,71,0,0" TextChanged="TextBox_TextChanged" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <Button Content="⚙️" HorizontalAlignment="Left" Height="22" Margin="36,130,0,0" VerticalAlignment="Top" Width="25" Grid.Column="2" RenderTransformOrigin="0.564,0.185" Click="Button_Click"/>
-        <Button Content="How to use" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1" Grid.Column="2"/>
+        <Button Name="ButtonSearchPixel" Click="OnButtonSearchPixelClick" Content="Start automating!" HorizontalAlignment="Center" Margin="48,131,49,10" VerticalAlignment="Center" Width="200" Height="30" Foreground="White" Background="Black" BorderBrush="White"/>
+        <TextBox x:Name="textbox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="34" Margin="195,35,0,0" TextChanged="TextBox_TextChanged" Background="Black" BorderBrush="White" Foreground="White"/>
+        <Label Content="Time untill meeting starts:" HorizontalAlignment="Left" Margin="13,32,0,0" VerticalAlignment="Top" Foreground="White" Background="Black" BorderBrush="White"/>
+        <Label Content="How long the lesson lasts:" HorizontalAlignment="Left" Margin="13,78,0,0" VerticalAlignment="Top" Foreground="White" Width="147" Background="Black" BorderBrush="White"/>
+        <TextBox x:Name="textbox2" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="34" Margin="195,81,0,0" TextChanged="TextBox_TextChanged" Background="Black" BorderBrush="White" Foreground="White"/>
+        <Button Content="🏳️" HorizontalAlignment="Left" Height="22" Margin="250,130,0,0" VerticalAlignment="Top" Width="25" RenderTransformOrigin="0.564,0.185" Click="Button_Click" BorderBrush="White" Background="Black" Foreground="White"/>
+        <Button Content="How to use" HorizontalAlignment="Left" Margin="211,3,0,0" VerticalAlignment="Top" Width="72" Click="Button_Click_1" Background="Black" Foreground="White" BorderBrush="White"/>
+        <Label Content="Mins" HorizontalAlignment="Left" Margin="229,35,0,0" VerticalAlignment="Top" Background="Black" Foreground="White" Width="32" FontSize="9" Height="23"/>
+        <Label Content="Mins" HorizontalAlignment="Left" Margin="229,81,0,0" VerticalAlignment="Top" Foreground="White" Width="32" FontSize="9" Height="23" Background="Black"/>
 
     </Grid>
 </Window>

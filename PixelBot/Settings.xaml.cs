@@ -30,5 +30,20 @@ namespace PixelBot
 
 
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://forms.gle/3AECq1f3M7nYvjWh7");
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://forms.gle/kn9LZZbSbK3akmto6");
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/devcone");
+        }
     }
 }

@@ -5,11 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PixelBot"
         mc:Ignorable="d"
-        Title="Settings" Height="272.585" Width="180.809">
-    <Grid Background="#FF4479A8" Margin="0,0,2,0">
+        Title="Useful links" Height="272.585" Width="262.152">
+    <Grid Background="#FF677478" Margin="0,0,2,0">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
+        <Button Content="Report a bug" Margin="84,10,85,0" VerticalAlignment="Top" Background="Black" Foreground="White" Click="Button_Click_1"/>
+        <Button Content="Give Feedback" Margin="80,46,80,0" VerticalAlignment="Top" Foreground="White" Background="Black" Click="Button_Click_2"/>
+        <Button Content="Visit the creators github!" Margin="53,83,53,0" VerticalAlignment="Top" Click="Button_Click_3" Background="Black" Foreground="White"/>
 
     </Grid>
 </Window>
