@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelBot", "PixelBot\PixelBot.csproj", "{04DBE06D-1CE1-4CFF-BB87-1117E0AD3245}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04DBE06D-1CE1-4CFF-BB87-1117E0AD3245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04DBE06D-1CE1-4CFF-BB87-1117E0AD3245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04DBE06D-1CE1-4CFF-BB87-1117E0AD3245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04DBE06D-1CE1-4CFF-BB87-1117E0AD3245}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DDCFB90-C89F-400A-BA5B-63A87EA909F8}
+	EndGlobalSection
+EndGlobal
