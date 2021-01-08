@@ -2,6 +2,8 @@
 A bot to join teams meetings when you're away, so you can be anywhere you like!
 
 ## IMPORTANT
+This ONLY works with the teams app on pc, please download the desktop teams app and use it with that :)
+
 The application will stop responding when its waiting, this is not an issue and it works that way, untill i find a better way it will stay like this.
 
 Please also note that the application will come up as an unrecognised app, i kindly ask you to press more info-run anyway when it pops up, thanks in advance!
