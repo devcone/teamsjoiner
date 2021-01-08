@@ -22,3 +22,14 @@ The UI is designed to be user friendly too, as a creator with no knowledge of UI
 Here you can find a few links to google forms i have set up and a link to my github page, needs some work but will be updated as soon as possible!
 
 ![](images/usefullinks.png)
+
+## How it works
+First, you input the time from now till the lesson starts. The program converts this, and the other number you put in into milliseconds, then it uses the 'new System.Threading.ManualResetEvent(false).WaitOne();' function to wait the time you have stated, plus an extra 15 seconds incase the meeting is late. 
+
+Then on the teams desktop app, the 'join' button to join a meeting has a certain few pixels with a unique colour on it (i found this with instant eyedropper), from there it clicks on the specified pixel. on the second screen, the 'join now' option also has unique colour pixels, so it made it easy. 
+
+After the lesson starts, the same method as used in the first part waits the desired time until the lesson is over, then it searches for the red pixels in the 'leave' button. If its there, it clicks it. 
+
+-- i am currently working on a feature where it retries after 1 minute everytime till the process ends or the button is found --
+
+
