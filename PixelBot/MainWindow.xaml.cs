@@ -41,8 +41,7 @@ namespace PixelBot
             int endmilli = endminutes * 60000;
             int endmillifinal = endmilli + 30000;
             Thread.Sleep(finalmilli);
-            string firsthexcode = "#7C7DB3";
-            SearchPixel(firsthexcode);
+       
 
             Thread.Sleep(6000);
 
