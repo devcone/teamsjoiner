@@ -35,7 +35,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>teamsjoinerlogo.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -118,12 +119,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="teamsjoinerlogo.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="teamjoiner icon.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="teamjoiner icon.ico" />
