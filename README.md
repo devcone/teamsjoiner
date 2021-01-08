@@ -1,7 +1,7 @@
 # teamsjoiner
 A bot to join teams meetings when you're away, so you can be anywhere you like!
 
-![](images/teamsjoiner%20icon.png)
+![](images/teamjoiner%20icon.png)
 
 ## IMPORTANT
 The application will stop responding when its waiting, this is not an issue and it works that way, untill i find a better way it will stay like this.
