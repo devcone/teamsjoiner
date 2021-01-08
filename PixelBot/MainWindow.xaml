@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PixelBot"
         mc:Ignorable="d"
-        Title="Teamsjoiner by Toby" Height="200" Width="303.093" ResizeMode="NoResize" Background="#FF2C2C2C" Icon="teamsjoinerlogo.ico">
+        Title="Teamsjoiner by Toby" Height="200" Width="303.093" ResizeMode="NoResize" Background="#FF2C2C2C" Icon="teamjoiner icon.ico">
     <Grid Background="#FF677478">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>

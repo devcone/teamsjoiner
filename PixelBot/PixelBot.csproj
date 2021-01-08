@@ -122,5 +122,11 @@
   <ItemGroup>
     <Resource Include="teamsjoinerlogo.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="teamjoiner icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="teamjoiner icon.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
