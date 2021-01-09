@@ -5,20 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PixelBot"
         mc:Ignorable="d"
-        Title="Teamsjoiner by Toby" Height="200" Width="303.093" ResizeMode="NoResize" Background="#FF2C2C2C" Icon="teamjoiner icon.ico">
-    <Grid Background="#FF677478">
+        Title="Teamsjoiner by Toby" Height="177.339" Width="377.108" Background="#FF2C2C2C" Icon="teamjoiner icon.ico" ResizeMode="NoResize" BorderBrush="White">
+    <Grid Background="#FF111111" Margin="0,0,1,0">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button Name="ButtonSearchPixel" Click="OnButtonSearchPixelClick" Content="Start automating!" HorizontalAlignment="Center" Margin="48,131,49,10" VerticalAlignment="Center" Width="200" Height="30" Foreground="White" Background="Black" BorderBrush="White"/>
-        <TextBox x:Name="textbox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="34" Margin="195,35,0,0" TextChanged="TextBox_TextChanged" Background="Black" BorderBrush="White" Foreground="White"/>
-        <Label Content="Time untill meeting starts:" HorizontalAlignment="Left" Margin="13,32,0,0" VerticalAlignment="Top" Foreground="White" Background="Black" BorderBrush="White"/>
-        <Label Content="How long the lesson lasts:" HorizontalAlignment="Left" Margin="13,78,0,0" VerticalAlignment="Top" Foreground="White" Width="147" Background="Black" BorderBrush="White"/>
-        <TextBox x:Name="textbox2" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="34" Margin="195,81,0,0" TextChanged="TextBox_TextChanged" Background="Black" BorderBrush="White" Foreground="White"/>
-        <Button Content="🏳️" HorizontalAlignment="Left" Height="22" Margin="250,130,0,0" VerticalAlignment="Top" Width="25" RenderTransformOrigin="0.564,0.185" Click="Button_Click" BorderBrush="White" Background="Black" Foreground="White"/>
-        <Button Content="How to use" HorizontalAlignment="Left" Margin="211,3,0,0" VerticalAlignment="Top" Width="72" Click="Button_Click_1" Background="Black" Foreground="White" BorderBrush="White"/>
-        <Label Content="Mins" HorizontalAlignment="Left" Margin="229,35,0,0" VerticalAlignment="Top" Background="Black" Foreground="White" Width="32" FontSize="9" Height="23"/>
-        <Label Content="Mins" HorizontalAlignment="Left" Margin="229,81,0,0" VerticalAlignment="Top" Foreground="White" Width="32" FontSize="9" Height="23" Background="Black"/>
+        <Rectangle Fill="#FF333333" HorizontalAlignment="Left" Height="148" Stroke="#FF333333" VerticalAlignment="Top" Width="72"/>
+
+        <Button x:Name="automate" Click="OnButtonSearchPixelClick" Content="Start automating!" HorizontalAlignment="Center" Margin="139,107,79,10" VerticalAlignment="Center" Width="152" Height="31" Foreground="White" Background="#FF474747" BorderBrush="#FF777777"/>
+        <TextBox x:Name="textbox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="34" Margin="258,21,0,0" TextChanged="TextBox_TextChanged" Background="#FF474747" BorderBrush="#FF777777" Foreground="White"/>
+        <Label Content="Time untill meeting starts:" HorizontalAlignment="Left" Margin="90,20,0,0" VerticalAlignment="Top" Foreground="White" Background="#FF474747" BorderBrush="#FF777777"/>
+        <Label Content="How long the lesson lasts:" HorizontalAlignment="Left" Margin="90,62,0,0" VerticalAlignment="Top" Foreground="White" Width="147" Background="#FF474747" BorderBrush="#FF777777"/>
+        <TextBox x:Name="textbox2" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="34" Margin="258,63,0,0" TextChanged="TextBox_TextChanged" Background="#FF474747" BorderBrush="#FF777777" Foreground="White"/>
+        <Button Content="Settings" HorizontalAlignment="Left" Height="20" Margin="7,29,0,0" VerticalAlignment="Top" Width="59" RenderTransformOrigin="0.564,0.185" Click="Button_Click" BorderBrush="#FF777777" Background="#FF474747" Foreground="White"/>
+        <Button Content="How to use" HorizontalAlignment="Left" VerticalAlignment="Top" Width="65" Click="Button_Click_1" Background="#FF474747" Foreground="White" BorderBrush="#FF777777" Margin="4,3,0,0" Height="21"/>
+        <Label Content="Mins" HorizontalAlignment="Left" Margin="292,21,0,0" VerticalAlignment="Top" Background="#FF474747" Foreground="White" Width="32" FontSize="9" Height="23"/>
+        <Label Content="Mins" HorizontalAlignment="Left" Margin="292,63,0,0" VerticalAlignment="Top" Foreground="White" Width="32" FontSize="9" Height="23" Background="#FF474747"/>
 
     </Grid>
 </Window>

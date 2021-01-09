@@ -13,6 +13,7 @@ namespace PixelBot
     
     public partial class MainWindow : Window
     {
+        
         private const UInt32 MOUSEEVENTF_LEFTDOWN = 0x0002;
         private const UInt32 MOUSEEVENTF_LEFTUP = 0x0004;
 
@@ -29,7 +30,9 @@ namespace PixelBot
 
         private void OnButtonSearchPixelClick(object sender, RoutedEventArgs e)
         {
-           
+
+            string message8 = "Automatimg! please press 'ok' \nOnce pressed 'ok' leave the app running and open the teams chat where the meeting will be posted";
+            MessageBox.Show(message8);
 
             string min = textbox.Text;
             int minutes = Convert.ToInt32(min);
@@ -40,10 +43,10 @@ namespace PixelBot
             int endminutes = Convert.ToInt32(min);
             int endmilli = endminutes * 60000;
             int endmillifinal = endmilli + 30000;
-            Thread.Sleep(finalmilli);
-       
+            new System.Threading.ManualResetEvent(false).WaitOne(finalmilli);
 
-            Thread.Sleep(6000);
+
+            new System.Threading.ManualResetEvent(false).WaitOne(6000);
 
             string inputHexColorCode = "#C2C3DD";
             SearchPixel(inputHexColorCode);
@@ -51,15 +54,22 @@ namespace PixelBot
             bool finalised = true;
             if (finalised == true)
             {
-                Thread.Sleep(1000);
+                new System.Threading.ManualResetEvent(false).WaitOne(1000);
                 string inputhexcolorcode2 = "#62C4F1";
                 SearchPixel(inputhexcolorcode2);
                 bool secondstep = true;
-                System.Threading.Thread.Sleep(endmillifinal);
+                new System.Threading.ManualResetEvent(false).WaitOne(endmillifinal);
                 if (secondstep == true)
                 {
                     string inputhexcolorcode3 = "#CF586D";
                     SearchPixel(inputhexcolorcode3);
+
+                    var window3 = new finished();
+                    window3.Show();
+
+
+
+
 
                 } 
                 
@@ -140,6 +150,12 @@ namespace PixelBot
 
 
 
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            var window3 = new finished();
+            window3.Show();
         }
     }
 }
