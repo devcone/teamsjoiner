@@ -9,7 +9,7 @@ Please also note that the application will come up as an unrecognised app, i kin
 ## The UI
 The UI is designed to be user friendly too, as a creator with no knowledge of UI design at all, i'm proud. Heres a quick look:
 
-![](images/blackui.png)
+![](images/Blackui.png)
 
 ## How to use
 here's how to use it. Again, it is supposed to be straightforward. make sure the chat is open where the meeting will be posted as this bot uses the colour of the "join" button to click it!
