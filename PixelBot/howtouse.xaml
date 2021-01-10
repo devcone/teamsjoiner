@@ -1,0 +1,16 @@
+﻿<Window x:Class="PixelBot.howtouse"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PixelBot"
+        mc:Ignorable="d"
+        Title="howtouse" Height="218.573" Width="424.999">
+    <Grid Background="#FF111111">
+        <Label Content="1. Open teams" HorizontalAlignment="Left" Margin="150,14,0,0" VerticalAlignment="Top" Height="31" Width="117" Background="#FF474747" Foreground="White" FontSize="16"/>
+        <Label Content="2. open the chat where the join button will be posted" HorizontalAlignment="Left" Margin="18,56,0,0" VerticalAlignment="Top" Foreground="White" Background="#FF474747" FontSize="16"/>
+        <Label Content="3. enter the minutes till class starts and ends" HorizontalAlignment="Left" Margin="52,97,0,0" VerticalAlignment="Top" Foreground="White" Background="#FF474747" FontSize="16"/>
+        <Label Content="4. click 'start automating'" HorizontalAlignment="Left" Margin="119,136,0,0" VerticalAlignment="Top" Foreground="White" Background="#FF474747" FontSize="16"/>
+
+    </Grid>
+</Window>

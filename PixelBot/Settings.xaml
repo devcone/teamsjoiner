@@ -5,14 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PixelBot"
         mc:Ignorable="d"
-        Title="Settings" Height="272.585" Width="262.152" Icon="teamjoiner icon.ico">
-    <Grid Background="#FF111111" Margin="0,0,2,0">
+        Title="Settings" Height="82.585" Width="408.152" Icon="teamjoiner icon.ico">
+    <Grid Background="#FF111111">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button Content="Report a bug" Margin="84,10,85,0" VerticalAlignment="Top" Background="#FF474747" Foreground="White" Click="Button_Click_1"/>
-        <Button Content="Give Feedback" Margin="80,46,80,0" VerticalAlignment="Top" Foreground="White" Background="#FF474747" Click="Button_Click_2"/>
-        <Button Content="Visit the creators github!" Margin="53,82,53,0" VerticalAlignment="Top" Click="Button_Click_3" Background="#FF474747" Foreground="White"/>
+        <Label Content="Coming soon! please request a setting in 'feedback' on the main page" HorizontalAlignment="Left" Margin="10,10,-138,0" VerticalAlignment="Top" Background="#FF474747" Foreground="White" Width="382"/>
 
     </Grid>
 </Window>

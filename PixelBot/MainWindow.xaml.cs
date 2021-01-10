@@ -30,10 +30,6 @@ namespace PixelBot
 
         private void OnButtonSearchPixelClick(object sender, RoutedEventArgs e)
         {
-
-            string message8 = "Automatimg! please press 'ok' \nOnce pressed 'ok' leave the app running and open the teams chat where the meeting will be posted";
-            MessageBox.Show(message8);
-
             string min = textbox.Text;
             int minutes = Convert.ToInt32(min);
             int milli = minutes * 30000;
@@ -66,11 +62,6 @@ namespace PixelBot
 
                     var window3 = new finished();
                     window3.Show();
-
-
-
-
-
                 } 
                 
             }
@@ -103,12 +94,7 @@ namespace PixelBot
             string message = "Join button not found... Whoops....";
             MessageBox.Show(message);
 
-
-
             return false;
-
-
-
         }
 
         private void DoubleClickAtPosition(int posX, int posY)
@@ -134,28 +120,33 @@ namespace PixelBot
         {
             var window2 = new Settings();
             window2.Show();
-
-
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            string message5 = "1. Open teams" +
-                "\n2. open the chat where the join button will be posted" +
-                "\n3. enter the minutes till class starts and ends" +
-                "\n4. click start automating, make sure you are in the right chat so it can click the join button!";
-            MessageBox.Show(message5);
-
-
-
-
-
+            var window4 = new howtouse();
+            window4.Show();
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             var window3 = new finished();
             window3.Show();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://forms.gle/3AECq1f3M7nYvjWh7");
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://forms.gle/kn9LZZbSbK3akmto6");
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/devcone");
         }
     }
 }

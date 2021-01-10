@@ -75,10 +75,17 @@
     <Compile Include="finished.xaml.cs">
       <DependentUpon>finished.xaml</DependentUpon>
     </Compile>
+    <Compile Include="howtouse.xaml.cs">
+      <DependentUpon>howtouse.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Settings.xaml.cs">
       <DependentUpon>Settings.xaml</DependentUpon>
     </Compile>
     <Page Include="finished.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="howtouse.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
