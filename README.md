@@ -18,11 +18,6 @@ The UI is designed to be user friendly too, as a creator with no knowledge of UI
 
 ![](images/updatedui.png)
 
-## Useful Links
-Here you can find a few links to google forms i have set up and a link to my github page, needs some work but will be updated as soon as possible!
-
-![](images/usefullinks.png)
-
 ## How it works
 First, you input the time from now till the lesson starts. The program converts this, and the other number you put in into milliseconds, then it uses the 'new System.Threading.ManualResetEvent(false).WaitOne();' function to wait the time you have stated, plus an extra 15 seconds incase the meeting is late. 
 
