@@ -16,7 +16,7 @@ here's how to use it. Again, it is supposed to be straightforward. make sure the
 ## The UI
 The UI is designed to be user friendly too, as a creator with no knowledge of UI design at all, i'm proud. Heres a quick look:
 
-![](images/blackui.png)
+![](images/updatedui.png)
 
 ## Useful Links
 Here you can find a few links to google forms i have set up and a link to my github page, needs some work but will be updated as soon as possible!
