@@ -11,6 +11,9 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Microsoft.Win32;
+using System.IO;
+
 
 namespace PixelBot
 {
@@ -44,6 +47,17 @@ namespace PixelBot
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
             System.Diagnostics.Process.Start("https://github.com/devcone");
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            
+
+        }
+
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }

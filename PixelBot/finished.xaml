@@ -10,14 +10,14 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Label x:Name="finishedlabel" Content="Thank you for using teamsjoiner" Margin="118,19,104,0" VerticalAlignment="Top" Height="40" Background="#FF474747" Foreground="White" BorderBrush="White" FontSize="18"/>
+        <Label x:Name="finishedlabel" Content="Thank you for using teamsjoiner" Margin="112,19,110,0" VerticalAlignment="Top" Height="40" Background="#FF474747" Foreground="White" BorderBrush="White" FontSize="18"/>
         <Label Content="Didn't work properly? " HorizontalAlignment="Left" Margin="25,89,0,0" VerticalAlignment="Top" FontSize="18" Height="36" Width="187" BorderBrush="Black" Background="#FF474747" Foreground="White"/>
-        <Label Content="Worked? write a review!" HorizontalAlignment="Left" Margin="278,92,0,0" VerticalAlignment="Top" FontSize="18" Background="#FF474747" Foreground="White"/>
+        <Label Content="Worked? write a review!" Margin="262,92,26,0" VerticalAlignment="Top" FontSize="18" Background="#FF474747" Foreground="White"/>
         <Button Content="Report a bug" HorizontalAlignment="Left" Margin="15,142,0,0" VerticalAlignment="Top" Width="101" Height="33" BorderBrush="White" Foreground="White" Background="#FF474747" Click="Button_Click"/>
         <Button Content="Give feedback" HorizontalAlignment="Left" Margin="121,142,0,0" VerticalAlignment="Top" Width="101" Background="#FF474747" BorderBrush="White" Foreground="White" Height="33" Click="Button_Click_1"/>
         <Button Content="Creator's github" HorizontalAlignment="Left" Margin="15,180,0,0" VerticalAlignment="Top" Width="101" Height="33" Background="#FF474747" BorderBrush="White" Foreground="White" Click="Button_Click_2"/>
-        <Button Content="Write review" HorizontalAlignment="Left" Margin="278,142,0,0" VerticalAlignment="Top" Width="101" Height="33" Background="#FF474747" BorderBrush="White" Foreground="White" Click="Button_Click_3"/>
-        <Button Content="Creator's github" HorizontalAlignment="Left" Margin="384,142,0,0" VerticalAlignment="Top" Width="101" Height="33" Background="#FF474747" BorderBrush="White" Foreground="White" Click="Button_Click_2"/>
+        <Button Content="Write review" Margin="264,142,122,0" VerticalAlignment="Top" Height="33" Background="#FF474747" BorderBrush="White" Foreground="White" Click="Button_Click_3"/>
+        <Button Content="Creator's github" Margin="372,142,14,0" VerticalAlignment="Top" Height="33" Background="#FF474747" BorderBrush="White" Foreground="White" Click="Button_Click_2"/>
 
     </Grid>
 </Window>

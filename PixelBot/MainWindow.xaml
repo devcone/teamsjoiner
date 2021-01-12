@@ -12,7 +12,7 @@
         </Grid.ColumnDefinitions>
         <Rectangle Fill="#FF333333" HorizontalAlignment="Left" Height="148" Stroke="#FF333333" VerticalAlignment="Top" Width="93"/>
 
-        <Button x:Name="automate" Click="OnButtonSearchPixelClick" Content="Start automating!" HorizontalAlignment="Center" Margin="167,107,52,10" VerticalAlignment="Center" Width="152" Height="31" Foreground="White" Background="#FF474747" BorderBrush="#FF777777"/>
+        <Button x:Name="automate" Click="OnButtonSearchPixelClick" Content="Start automating!" HorizontalAlignment="Center" Margin="167,105,52,12" VerticalAlignment="Center" Width="152" Height="31" Foreground="White" Background="#FF474747" BorderBrush="#FF777777"/>
         <TextBox x:Name="textbox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="34" Margin="283,21,0,0" TextChanged="TextBox_TextChanged" Background="#FF474747" BorderBrush="#FF777777" Foreground="White"/>
         <Label Content="Time untill meeting starts:" HorizontalAlignment="Left" Margin="119,20,0,0" VerticalAlignment="Top" Foreground="White" Background="#FF474747" BorderBrush="#FF777777"/>
         <Label Content="How long the lesson lasts:" HorizontalAlignment="Left" Margin="118,62,0,0" VerticalAlignment="Top" Foreground="White" Width="147" Background="#FF474747" BorderBrush="#FF777777"/>
