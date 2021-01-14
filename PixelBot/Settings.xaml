@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PixelBot"
         mc:Ignorable="d"
-        Title="Settings" Height="81.585" Width="408.152" Icon="teamjoiner icon.ico">
+        Title="Settings" Height="81.585" Width="422.152" Icon="teamjoiner icon.ico">
     <Grid Background="#FF111111">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
