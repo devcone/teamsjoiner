@@ -5,22 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PixelBot"
         mc:Ignorable="d"
-        Title="Teamsjoiner by Toby" Height="177.339" Width="377.108" Background="#FF2C2C2C" Icon="teamjoiner icon.ico" ResizeMode="NoResize" BorderBrush="White">
+        Title="Teamsjoiner by Toby" Height="169.339" Width="377.108" Background="#FF2C2C2C" Icon="teamjoiner icon.ico" ResizeMode="NoResize" BorderBrush="White">
     <Grid Background="#FF111111">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Rectangle Fill="#FF333333" HorizontalAlignment="Left" Height="148" Stroke="#FF333333" VerticalAlignment="Top" Width="93"/>
+        <Rectangle Fill="#FF333333" HorizontalAlignment="Left" Height="140" Stroke="#FF333333" VerticalAlignment="Top" Width="93"/>
 
-        <Button x:Name="automate" Click="OnButtonSearchPixelClick" Content="Start automating!" HorizontalAlignment="Center" Margin="167,105,52,12" VerticalAlignment="Center" Width="152" Height="31" Foreground="White" Background="#FF474747" BorderBrush="#FF777777"/>
-        <TextBox x:Name="textbox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="34" Margin="283,21,0,0" TextChanged="TextBox_TextChanged" Background="#FF474747" BorderBrush="#FF777777" Foreground="White"/>
-        <Label Content="Time untill meeting starts:" HorizontalAlignment="Left" Margin="119,20,0,0" VerticalAlignment="Top" Foreground="White" Background="#FF474747" BorderBrush="#FF777777"/>
-        <Label Content="How long the lesson lasts:" HorizontalAlignment="Left" Margin="118,62,0,0" VerticalAlignment="Top" Foreground="White" Width="147" Background="#FF474747" BorderBrush="#FF777777"/>
-        <TextBox x:Name="textbox2" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="34" Margin="283,63,0,0" TextChanged="TextBox_TextChanged" Background="#FF474747" BorderBrush="#FF777777" Foreground="White"/>
+        <Button x:Name="automate" Click="OnButtonSearchPixelClick" Content="Start automating!" HorizontalAlignment="Center" Margin="136,94,48,9" VerticalAlignment="Center" Width="187" Height="29" Foreground="White" Background="#FF474747" BorderBrush="#FF777777" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.136"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <TextBox x:Name="textbox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="34" Margin="283,10,0,0" TextChanged="TextBox_TextChanged" Background="#FF474747" BorderBrush="#FF777777" Foreground="White"/>
+        <Label Content="Time untill meeting starts:" HorizontalAlignment="Left" Margin="119,8,0,0" VerticalAlignment="Top" Foreground="White" Background="#FF474747" BorderBrush="#FF777777"/>
+        <Label Content="How long the lesson lasts:" HorizontalAlignment="Left" Margin="118,52,0,0" VerticalAlignment="Top" Foreground="White" Width="147" Background="#FF474747" BorderBrush="#FF777777"/>
+        <TextBox x:Name="textbox2" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="34" Margin="283,54,0,0" TextChanged="TextBox_TextChanged" Background="#FF474747" BorderBrush="#FF777777" Foreground="White"/>
         <Button Content="Settings" HorizontalAlignment="Left" Height="23" Margin="4,27,0,0" VerticalAlignment="Top" Width="85" RenderTransformOrigin="0.564,0.185" Click="Button_Click" BorderBrush="{x:Null}" Background="#FF474747" Foreground="White"/>
         <Button Content="How to use" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Click="Button_Click_1" Background="#FF474747" Foreground="White" BorderBrush="{x:Null}" Margin="4,4,0,0" Height="21"/>
-        <Label Content="Mins" HorizontalAlignment="Left" Margin="317,21,0,0" VerticalAlignment="Top" Background="#FF474747" Foreground="White" Width="32" FontSize="9" Height="23"/>
-        <Label Content="Mins" HorizontalAlignment="Left" Margin="317,63,0,0" VerticalAlignment="Top" Foreground="White" Width="32" FontSize="9" Height="23" Background="#FF474747"/>
+        <Label Content="Mins" HorizontalAlignment="Left" Margin="317,10,0,0" VerticalAlignment="Top" Background="#FF474747" Foreground="White" Width="32" FontSize="9" Height="23"/>
+        <Label Content="Mins" HorizontalAlignment="Left" Margin="317,54,0,0" VerticalAlignment="Top" Foreground="White" Width="32" FontSize="9" Height="23" Background="#FF474747"/>
         <Button Content="Feedback" HorizontalAlignment="Left" Margin="5,53,0,0" VerticalAlignment="Top" Width="84" Background="#FF474747" Foreground="White" BorderBrush="#FF474747" Click="Button_Click_4"/>
         <Button Content="Report bug" HorizontalAlignment="Left" Margin="5,77,0,0" VerticalAlignment="Top" Width="84" Background="#FF474747" BorderBrush="#FF474747" Foreground="White" Click="Button_Click_3"/>
         <Button Content="Github" HorizontalAlignment="Left" Margin="5,101,0,0" VerticalAlignment="Top" Width="84" Background="#FF474747" Foreground="White" BorderBrush="#FF474747" Click="Button_Click_5"/>

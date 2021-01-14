@@ -34,9 +34,10 @@ namespace PixelBot
             int minutes = Convert.ToInt32(min);
             int milli = minutes * 30000;
             int finalmilli = milli + 30000;
-            string endmin = textbox2.Text;
 
-            int endminutes = Convert.ToInt32(min);
+
+            string endmin = textbox2.Text;
+            int endminutes = Convert.ToInt32(endmin);
             int endmilli = endminutes * 60000;
             int endmillifinal = endmilli + 30000;
             new System.Threading.ManualResetEvent(false).WaitOne(finalmilli);
@@ -91,6 +92,61 @@ namespace PixelBot
                 }
             }
 
+            string endmin1 = textbox2.Text;
+            int endminutes1 = Convert.ToInt32(endmin1);
+            int endmilli1 = endminutes1 * 60000;
+            int endmillifinal = endmilli1 + 30000;
+
+            new System.Threading.ManualResetEvent(false).WaitOne(120000);
+
+            string joinbutton = "#C2C3DD";
+            method(joinbutton);
+            bool finalised1 = true;
+            if (finalised1 == true)
+            {
+                new System.Threading.ManualResetEvent(false).WaitOne(1000);
+                string secondjoin = "#62C4F1";
+                method(secondjoin);
+                bool secondstep = true;
+                new System.Threading.ManualResetEvent(false).WaitOne(1);
+
+                if (secondstep == true)
+                {
+                    string inputhexcolorcode5 = "#CF586D";
+                    method(inputhexcolorcode5);
+                    var window3 = new finished();
+                    window3.Show();
+
+                }
+            }
+
+            void method (string codehex)
+            {
+                Bitmap bitmap1 = new Bitmap(SystemInformation.VirtualScreen.Width, SystemInformation.VirtualScreen.Height);
+                Graphics graphics1 = Graphics.FromImage(bitmap as Image);
+                graphics.CopyFromScreen(0, 0, 0, 0, bitmap.Size);
+
+                Color desiredPixelColor1 = ColorTranslator.FromHtml(codehex);
+
+                for (int x = 0; x < SystemInformation.VirtualScreen.Width; x++)
+                {
+                    for (int y = 0; y < SystemInformation.VirtualScreen.Height; y++)
+                    {
+                        Color currentPixelColor = bitmap.GetPixel(x, y);
+
+                        if (desiredPixelColor == currentPixelColor)
+                        {
+                            DoubleClickAtPosition(x, y);
+                        }
+                    }
+
+
+
+                }
+                string message45 = "join button not found, tried 2 times";
+                MessageBox.Show(message45);
+                // IF you want to try 3 times, write the code again here
+            }
             string message = "Join button not found... Whoops....";
             MessageBox.Show(message);
 
@@ -148,5 +204,6 @@ namespace PixelBot
         {
             System.Diagnostics.Process.Start("https://github.com/devcone");
         }
+
     }
 }
