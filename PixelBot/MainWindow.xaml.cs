@@ -143,6 +143,18 @@ namespace PixelBot
 
 
                 }
+
+
+                //space to add a feature so it tries 3 times in total
+
+
+
+
+
+
+
+
+
                 string message45 = "join button not found, tried 2 times";
                 MessageBox.Show(message45);
                 // IF you want to try 3 times, write the code again here
